@@ -5,6 +5,6 @@ public class Intern extends Employee{
     }
 
     public double calculateSalary() {
-        return 3000;
+        return getBaseSalary() + 3000;
     }
 }

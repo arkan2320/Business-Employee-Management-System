@@ -53,6 +53,7 @@ public class Main {
                 } else {
                     for (Employee emp : employees) {
                         emp.displayEmployeeInfo();
+                        System.out.println("total salary = "+emp.calculateSalary());
 
                         if (emp instanceof Manger) {
                             System.out.println("Role: Project Manager");
